@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_interactive_viewer/custom_scroll/custom_scroll_physics.dart';
+import 'package:flutter_interactive_viewer/custom_scroll/helper.dart';
 
-import 'helper.dart';
 
 class ListViewScroll extends StatefulWidget {
   const ListViewScroll({Key? key}) : super(key: key);
@@ -51,7 +51,7 @@ class _ListViewScrollState extends State<ListViewScroll> {
           height: double.infinity,
           width: size.width - 40,
           color: color,
-          margin: const EdgeInsets.all(20.0),
+          margin: const EdgeInsets.all(20),
           child: Center(
             child: Text(
               '${index + 1}',

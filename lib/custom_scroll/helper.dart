@@ -9,7 +9,7 @@ class Helper {
   final _random = math.Random();
   late final List<int> pages;
 
-  Color get randomColor => Color(_random.nextInt(0xFFFFFF)).withOpacity(1.0);
+  Color get randomColor => Color(_random.nextInt(0xFFFFFF)).withOpacity(1);
 
   Color invert(Color color) {
     final r = (0xFF - color.red).abs();

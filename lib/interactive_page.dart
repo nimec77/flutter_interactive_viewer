@@ -47,7 +47,7 @@ class _InteractivePageState extends State<InteractivePage> {
       child: LayoutBuilder(
         builder: (context, constraints) {
           return InteractiveViewer.builder(
-            alignPanAxis: false,
+            // alignPanAxis: false,
             scaleEnabled: false,
             transformationController: _transformationController,
             builder: (context, viewport) {
@@ -63,7 +63,7 @@ class _InteractivePageState extends State<InteractivePage> {
                     height: widget.cellHeight,
                     color: row % 2 + column % 2 == 1 ? Colors.white : Colors.grey.withOpacity(0.1),
                     child: Align(
-                      alignment: Alignment.center,
+                      // alignment: Alignment.center,
                       child: Text(
                         '$row x $column',
                         style: Theme.of(context).textTheme.headline5,

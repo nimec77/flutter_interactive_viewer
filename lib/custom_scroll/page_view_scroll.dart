@@ -15,7 +15,7 @@ class PageViewScroll extends StatelessWidget {
       itemBuilder: (context, index) {
         return Container(
           color: _helper.randomColor,
-          margin: const EdgeInsets.all(20.0),
+          margin: const EdgeInsets.all(20),
         );
       },
     );

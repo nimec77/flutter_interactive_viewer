@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_interactive_viewer/entities/types.dart';
+import 'package:flutter_interactive_viewer/helpers/viewport_visible.dart';
 import 'package:vector_math/vector_math_64.dart' show Quad;
 
-import 'entities/types.dart';
-import 'helpers/viewport_visible.dart';
 
 class RowColumnBuilder extends StatelessWidget {
   RowColumnBuilder({

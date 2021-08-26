@@ -1,8 +1,8 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_interactive_viewer/custom_scroll/custom_scroll.dart';
 
-import 'custom_scroll/custom_scroll.dart';
 
 void main() {
   runApp(const MyApp());
